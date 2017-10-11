@@ -1,4 +1,4 @@
-# promisify-all
+# promisify-all [![Build Status](https://travis-ci.org/pd4d10/promisify-all.svg)](https://travis-ci.org/pd4d10/promisify-all)
 
 Promisify all Node.js builtin async methods using `util.promisify`
 
