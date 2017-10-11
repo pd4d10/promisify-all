@@ -1,6 +1,6 @@
 {
   "name": "promisify-all",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Promisify all callbacks",
   "main": "index.js",
   "files": [
@@ -14,7 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/pd4d10/promisify-all.git"
   },
-  "keywords": ["promisify"],
+  "keywords": [
+    "promisify"
+  ],
   "author": "pd4d10 <pd4d10@gmail.com>",
   "license": "MIT",
   "bugs": {
