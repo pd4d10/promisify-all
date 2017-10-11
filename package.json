@@ -1,0 +1,27 @@
+{
+  "name": "promisify-all",
+  "version": "0.0.1",
+  "description": "Promisify all callbacks",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "data.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pd4d10/promisify-all.git"
+  },
+  "keywords": ["promisify"],
+  "author": "pd4d10 <pd4d10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pd4d10/promisify-all/issues"
+  },
+  "homepage": "https://github.com/pd4d10/promisify-all#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
