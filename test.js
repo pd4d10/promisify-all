@@ -16,6 +16,10 @@ describe('default', function() {
         it(`${namespace}.${m} should be a function`, function() {
           assert.equal(typeof require(namespace)[m], 'function')
         })
+      } else {
+        it(`${namespace}.${method} doesn't exists at this version, skip`, function() {
+          assert(true)
+        })
       }
     })
   })
