@@ -23,15 +23,19 @@ Then you have promisified methods such as `fs.readFileAsync` and `fs.writeFileAs
 ```js
 const fs = require('fs')
 
-try {
-  const content = await fs.readFileAsync('/path/to/file', 'utf8')
-  console.log('Read file succeed! Content: ', content)
+async function main() {
+  try {
+    const content = await fs.readFileAsync('/path/to/file', 'utf8')
+    console.log('Read file succeed! Content: ', content)
 
-  await fs.writeFileAsync('/path/to/another/file', content)
-  console.log('Write file succeed!')
-} catch (err) {
-  // Handle errors here
+    await fs.writeFileAsync('/path/to/another/file', content)
+    console.log('Write file succeed!')
+  } catch (err) {
+    // Handle errors here
+  }
 }
+
+main()
 ```
 
 ## Options
